@@ -22,7 +22,7 @@ $passive = "#e6b7b8";
 <html>
 
 <head>
-    <title>Drinks</title>
+    <title><?php echo $ig; ?></title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -84,7 +84,7 @@ $passive = "#e6b7b8";
 							<ul style="float: left;">
 								<li style="float: left; padding: 0px 25px 25px 25px;">
 									<div class="home-prodlist-img"><a href="view_product.php?pid=<?php echo $liste["id"] ?>">
-										<img src="/image/product/<?php echo $liste['item'] ?>/<?php echo $liste['picture'] ?>" alt="/image/product/<?php echo $liste['item'] ?>/<?php echo $liste['picture'] ?>" class="home-prodlist-imgi">
+										<img src="./image/product/<?php echo $liste['item'] ?>/<?php echo $liste['picture'] ?>" alt="/image/product/<?php echo $liste['item'] ?>/<?php echo $liste['picture'] ?>" class="home-prodlist-imgi">
 										</a>
 										<div style="text-align: center; padding: 0 0 6px 0;"> <span style="font-size: 15px;"><?php echo $liste['pName'] ?></span><br> Price: <?php echo $liste['price'] ?> Php</div>
 									</div>
