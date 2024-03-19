@@ -1,5 +1,5 @@
 <?php
-require ('./inc/connect.inc.php');
+include ('./inc/connect.inc.php');
 
 function getProducts($con){
     $sql= "SELECT distinct(item) from Products";
